@@ -1,4 +1,5 @@
 # EduDataWarehouse-ETL-Analytics
+Projet Académique - Module Business Intelligent
 
 ## Description
 Ce projet présente la création d'un système décisionnel complet pour l'analyse des performances étudiantes.  

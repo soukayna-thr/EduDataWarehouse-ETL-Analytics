@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_VQDqsCKvEfCsA-xtEHD4sw" name="dataSet" id="_VP5SoCKvEfCsA-xtEHD4sw" dataPackage="_VQDqsSKvEfCsA-xtEHD4sw" Server="Localhost 127.0.0.1" FilePath="C:/Users/chaim/OneDrive/Desktop/S8/BI/projet/xAPI-Edu-Data.csv" Format="WINDOWS" Encoding="ISO-8859-15" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" RemoveEmptyRow="true" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_VQDqsSKvEfCsA-xtEHD4sw" name="default" dataManager="_VQDqsCKvEfCsA-xtEHD4sw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_VQDqsiKvEfCsA-xtEHD4sw" id="_DnbAECKvEfCsA-xtEHD4sw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VQDqsyKvEfCsA-xtEHD4sw" label="gender" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VQDqtCKvEfCsA-xtEHD4sw" label="NationalITy" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VQDqtSKvEfCsA-xtEHD4sw" label="PlaceofBirth" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VQDqtiKvEfCsA-xtEHD4sw" label="StageID" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VQDqtyKvEfCsA-xtEHD4sw" label="GradeID" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VQDquCKvEfCsA-xtEHD4sw" label="SectionID" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VQDquSKvEfCsA-xtEHD4sw" label="Topic" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VQDquiKvEfCsA-xtEHD4sw" label="Semester" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VQDquyKvEfCsA-xtEHD4sw" label="Relation" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VQDqvCKvEfCsA-xtEHD4sw" label="raisedhands" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VQDqvSKvEfCsA-xtEHD4sw" label="VisITedResources" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VQDqviKvEfCsA-xtEHD4sw" label="AnnouncementsView" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VQDqvyKvEfCsA-xtEHD4sw" label="Discussion" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VQDqwCKvEfCsA-xtEHD4sw" label="ParentAnsweringSurvey" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VQDqwSKvEfCsA-xtEHD4sw" label="ParentschoolSatisfaction" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VQDqwiKvEfCsA-xtEHD4sw" label="StudentAbsenceDays" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_VQDqwyKvEfCsA-xtEHD4sw" label="ClassPerformance" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

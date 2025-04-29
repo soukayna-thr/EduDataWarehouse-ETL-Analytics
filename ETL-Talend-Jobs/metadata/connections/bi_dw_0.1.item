@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_hXPIwCELEfC7O5zhQkLTvg" name="bi_dw" id="_cr7QMCELEfC7O5zhQkLTvg" label="bi_dw" dataPackage="_hXzwgCELEfC7O5zhQkLTvg" DatabaseType="MySQL" DriverClass="com.mysql.cj.jdbc.Driver" URL="jdbc:mysql://localhost:3306/bi_dw?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" dbVersionString="MYSQL_8" Port="3306" Username="root" Password="" ServerName="localhost" DatasourceName="" FileFieldName="" SID="bi_dw" SqlSynthax="" StringQuote="" NullChar="" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_hXPIwSELEfC7O5zhQkLTvg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_hXpYcCELEfC7O5zhQkLTvg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_hXp_gCELEfC7O5zhQkLTvg" tag="Status" value=""/>
+    <taggedValue xmi:id="_hXp_gSELEfC7O5zhQkLTvg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_hXp_giELEfC7O5zhQkLTvg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_hXp_gyELEfC7O5zhQkLTvg" tag="Description" value=""/>
+    <taggedValue xmi:id="_hXp_hCELEfC7O5zhQkLTvg" tag="Author" value=""/>
+    <taggedValue xmi:id="_hXp_hSELEfC7O5zhQkLTvg" tag="otherParameter"/>
+    <taggedValue xmi:id="_hXuQ8CELEfC7O5zhQkLTvg" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_hXuQ8SELEfC7O5zhQkLTvg" tag="DB ProductVersion" value="10.4.32-MariaDB"/>
+    <taggedValue xmi:id="_hXuQ8iELEfC7O5zhQkLTvg" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_hXPIwiELEfC7O5zhQkLTvg" key="CONN_PARA_KEY_USERNAME" value="root"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_hXzwgCELEfC7O5zhQkLTvg" name="bi_dw" dataManager="_hXPIwCELEfC7O5zhQkLTvg"/>
+</xmi:XMI>

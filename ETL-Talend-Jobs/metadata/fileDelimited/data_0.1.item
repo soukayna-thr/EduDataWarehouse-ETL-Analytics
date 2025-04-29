@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="__I4-MCEMEfC7O5zhQkLTvg" name="data" dataPackage="__I5lQCEMEfC7O5zhQkLTvg" Server="Localhost 127.0.0.1" FilePath="C:/Users/chaim/OneDrive/Desktop/S8/BI/projet/xAPI-Edu-Data.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="__I5lQCEMEfC7O5zhQkLTvg" name="default" dataManager="__I4-MCEMEfC7O5zhQkLTvg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="__I5lQSEMEfC7O5zhQkLTvg" id="_wPp5ECEMEfC7O5zhQkLTvg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__I5lQiEMEfC7O5zhQkLTvg" label="gender" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__I5lQyEMEfC7O5zhQkLTvg" label="NationalITy" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__I5lRCEMEfC7O5zhQkLTvg" label="PlaceofBirth" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__I5lRSEMEfC7O5zhQkLTvg" label="StageID" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__I5lRiEMEfC7O5zhQkLTvg" label="GradeID" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__I5lRyEMEfC7O5zhQkLTvg" label="SectionID" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__I5lSCEMEfC7O5zhQkLTvg" label="Topic" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__I5lSSEMEfC7O5zhQkLTvg" label="Semester" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__I5lSiEMEfC7O5zhQkLTvg" label="Relation" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__I5lSyEMEfC7O5zhQkLTvg" label="raisedhands" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__I5lTCEMEfC7O5zhQkLTvg" label="VisITedResources" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__I5lTSEMEfC7O5zhQkLTvg" label="AnnouncementsView" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__I5lTiEMEfC7O5zhQkLTvg" label="Discussion" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__I5lTyEMEfC7O5zhQkLTvg" label="ParentAnsweringSurvey" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__I5lUCEMEfC7O5zhQkLTvg" label="ParentschoolSatisfaction" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__I5lUSEMEfC7O5zhQkLTvg" label="StudentAbsenceDays" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="__I5lUiEMEfC7O5zhQkLTvg" label="ClassPerformance" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
